@@ -31,6 +31,7 @@
 		82DB18D813E6BA4D00282428 /* FullImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DB18D613E6BA4D00282428 /* FullImageViewController.m */; };
 		82DB18D913E6BA4D00282428 /* FullImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82DB18D713E6BA4D00282428 /* FullImageViewController.xib */; };
 		82F76C2F1403AF9C00ED8E5B /* gray.webp in Resources */ = {isa = PBXBuildFile; fileRef = 82F76C2E1403AF9C00ED8E5B /* gray.webp */; };
+		DBD3E94518C6C78B00B464A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD3E94418C6C78B00B464A8 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,8 @@
 		82DB18D613E6BA4D00282428 /* FullImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullImageViewController.m; sourceTree = "<group>"; };
 		82DB18D713E6BA4D00282428 /* FullImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FullImageViewController.xib; sourceTree = "<group>"; };
 		82F76C2E1403AF9C00ED8E5B /* gray.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = gray.webp; sourceTree = "<group>"; };
+		DBD3E94318C6C78B00B464A8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DBD3E94418C6C78B00B464A8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +160,8 @@
 			children = (
 				82B8F17C13E483870012298C /* WebPImage.h */,
 				82B8F17D13E483870012298C /* WebPImage.m */,
+				DBD3E94318C6C78B00B464A8 /* ViewController.h */,
+				DBD3E94418C6C78B00B464A8 /* ViewController.m */,
 				82B8F16313E478E40012298C /* ViewWebPAppDelegate.h */,
 				82B8F16413E478E40012298C /* ViewWebPAppDelegate.m */,
 				82B8F16613E478E50012298C /* MainWindow.xib */,
@@ -306,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBD3E94518C6C78B00B464A8 /* ViewController.m in Sources */,
 				82B8F16213E478E40012298C /* main.m in Sources */,
 				82B8F16513E478E40012298C /* ViewWebPAppDelegate.m in Sources */,
 				82B8F16B13E478E50012298C /* RootViewController.m in Sources */,
